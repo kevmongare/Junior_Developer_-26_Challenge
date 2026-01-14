@@ -1,5 +1,11 @@
 /**
  * repl.ts
+ * REPL means Read-Eval-Print Loop -
+ * Read: The REPL takes your input (a command or expression).
+Eval (Evaluate): It processes and runs the code you entered.
+Print: It displays the output or result of the evaluation.
+Loop: It repeats the process, waiting for your next command. 
+
  * -------
  * Provides an interactive Read–Eval–Print Loop (REPL)
  * for executing SQL-like commands against the database.
