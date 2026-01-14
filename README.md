@@ -1,8 +1,25 @@
 # Pesadb – Mini SQL Database Engine (TypeScript)
+![TypeScript](https://img.shields.io/badge/TypeScript-5.x-blue)
+![Node.js](https://img.shields.io/badge/Node.js-18%2B-green)
+![MIT License](https://img.shields.io/badge/License-MIT-yellow)
+![Status](https://img.shields.io/badge/Status-Educational-orange) 
 
-Pesadb is a **simple in-memory relational database engine** built in TypeScript.  
-It is designed for learning purposes — to understand how SQL parsing, execution,
-and basic database concepts work under the hood.
+This project was built as part of the **Pesapal Junior Developer Challenge**.
+
+### Objective
+To demonstrate:
+- Core programming fundamentals
+- Ability to design systems from first principles
+- Understanding of how databases work internally
+- Clean, readable, and well-documented code
+
+### Why a Mini RDBMS?
+Instead of using an existing database, this project implements:
+- SQL parsing
+- Command execution
+- Table management
+- In-memory data storage
+
 
 This project supports a small subset of SQL and runs entirely in the terminal
 using a custom REPL.
@@ -86,6 +103,13 @@ Limited command set
 
 These limitations are intentional and explained in detail in DESIGN.md.
 
+---
+##  Possible Improvements
+- Persistent file-based storage
+- Indexing for faster lookups
+- UPDATE and DELETE support
+- More robust SQL grammar
+- Basic transaction support
 ---
 ### Use of AI
 
