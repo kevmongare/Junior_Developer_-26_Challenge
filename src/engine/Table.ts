@@ -4,7 +4,6 @@
  * Defines the core table structure and data storage logic.
  *
  * A Table manages its schema, stored rows, and indexes
- * used to enforce constraints and speed up queries.
  */
 
 import { Column } from "./Column";
