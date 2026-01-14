@@ -39,6 +39,7 @@ Pesadb uses a layered architecture where each layer has a single responsibility.
 ┌──────────────┐
 │    Table     │  Stores rows and schema
 └──────────────┘
+```
 ---
 ### Core Components
 REPL Layer
@@ -151,7 +152,7 @@ Adding indexing for faster lookups
 
 
 Serve as a stepping stone to real databases to demonstrate the workings of a RDMS
-
+----
 ### Summary
 
 Pesadb prioritizes clarity and learning over performance and completeness.
