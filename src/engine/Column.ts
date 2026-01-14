@@ -1,7 +1,5 @@
 /**
- * types.ts
  * --------
- * Shared type definitions used across the RDBMS engine.
  *
  * This file defines the core schema primitives that describe
  * how tables and columns are structured.
@@ -20,15 +18,13 @@ export type DataType = "INT" | "TEXT";
 
 /**
  * Describes a column within a table schema.
- *
  * Column metadata is used during:
  * - Table creation
  * - Insert validation
- * - Constraint enforcement
  * - Query execution
  */
 export interface Column {
-  /** Name of the column (must be unique per table) */
+  /** Name of the column (must be unique per table) and is a string */
   name: string;
 
   /** Data type of the column */
@@ -36,8 +32,7 @@ export interface Column {
 
   /**
    * Marks this column as the table's primary key.
-   * - Must be unique
-   * - Cannot be null
+   * - Must be unique and Cannot be null
    */
   primaryKey?: boolean;
 
